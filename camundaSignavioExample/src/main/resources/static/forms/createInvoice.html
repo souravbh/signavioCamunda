@@ -1,0 +1,26 @@
+<strong>Create Tweet</strong>
+
+<form role="form" class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label">Invoice Reference Indicator</label>
+    <div class="controls">
+      <input type="text" class="form-control" 
+        cam-variable-name="ref"
+        cam-variable-type="String"
+        required  
+        ng-pattern="/^[A-Za-z]+$/"
+        />
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">Invoice Total Bill</label>
+    <div class="controls">
+      <input type="text" class="form-control"
+		cam-variable-name="bill"
+        cam-variable-type="String"        
+        required
+         ng-pattern="/^[0-9]+$/"
+        />
+    </div>
+  </div>  
+</form>
