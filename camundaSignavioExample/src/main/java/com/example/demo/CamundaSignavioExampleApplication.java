@@ -27,6 +27,8 @@ public class CamundaSignavioExampleApplication extends SpringBootProcessApplicat
 		SpringApplication.run(CamundaSignavioExampleApplication.class, args);
 	}
 
+	/*
+
 	@Autowired
 	ApplicationContext context;
 	
@@ -55,5 +57,7 @@ public class CamundaSignavioExampleApplication extends SpringBootProcessApplicat
 	   processEngineFactoryBean.setProcessEngineConfiguration(springProcessEngineConfiguration);
 	   return processEngineFactoryBean;
 	}
+	
+	*/
 
 }
